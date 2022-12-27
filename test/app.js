@@ -1,6 +1,6 @@
 let spect = require("chai").expect;
 const { expect } = require("chai");
-let converter = require("../app.js");
+let converter = require("../app/converter.js");
 
 describe("Color code converter", function() {
     describe("RGB to HEX convertion", function() {
